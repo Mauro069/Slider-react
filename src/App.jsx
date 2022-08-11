@@ -32,6 +32,7 @@ function App() {
             modules={[Pagination, Autoplay]}
             autoplay={{
               delay: 3000,
+              disableOnInteraction: false
             }}
             pagination={{
               el: ".pagination",
